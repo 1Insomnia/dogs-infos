@@ -2,7 +2,7 @@ import { Box, Heading, Text } from '@chakra-ui/react'
 
 const Hero = () => {
   return (
-    <Box py={8} textAlign="center">
+    <Box textAlign="center">
       <Heading as="h1" size="3xl" mb={6}>
         Dogs Facts
       </Heading>
