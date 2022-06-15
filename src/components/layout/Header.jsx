@@ -5,15 +5,15 @@ import {
   Flex,
   Heading,
   Image,
-  useColorModeValue,
-} from "@chakra-ui/react";
+  useColorModeValue
+} from '@chakra-ui/react'
 // Logo
-import logo from "../../assets/paw.png";
+import logo from '../../assets/paw.png'
 // Components
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from './ThemeToggle'
 
 const Header = () => {
-  const bg = useColorModeValue("light.light", "dark.light");
+  const bg = useColorModeValue('light.light', 'dark.light')
 
   return (
     <Box as="header" bg={bg}>
@@ -29,7 +29,7 @@ const Header = () => {
         </Flex>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

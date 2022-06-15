@@ -1,4 +1,4 @@
-import { Box, Container, Flex } from "@chakra-ui/react";
+import { Box, Container, Flex } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         <Flex alignItems="center">Footer</Flex>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
